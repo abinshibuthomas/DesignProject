@@ -13,7 +13,7 @@ Button btn;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_availablebook);
-        btn=(Button)findViewById(R.id.issueid);
+        btn=(Button)findViewById(R.id.detailid);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
